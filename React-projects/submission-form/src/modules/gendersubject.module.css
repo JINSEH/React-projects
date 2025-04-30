@@ -1,0 +1,16 @@
+.gendersubject {
+  display: flex;
+  column-gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.gendersubject label {
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+}
+
+.gendersubject input[type="radio"] {
+  margin-bottom: 4px;
+}

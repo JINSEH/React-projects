@@ -1,0 +1,17 @@
+body {
+  background-color: rgb(233, 233, 233);
+}
+
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  background-color: white;
+  margin-top: 10px;
+  width: 80%;
+  border-radius: 10px;
+  padding: 40px;
+}
