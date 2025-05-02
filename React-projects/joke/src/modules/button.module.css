@@ -1,0 +1,9 @@
+.generate_button {
+  border-radius: 5px;
+  border: none;
+  background-color: rgba(9, 224, 38, 0.781);
+  height: 40px;
+  width: 200px;
+  color: white;
+  cursor: pointer;
+}
