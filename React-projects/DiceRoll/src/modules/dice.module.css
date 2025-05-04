@@ -1,0 +1,10 @@
+.dice {
+  color: rgb(143, 48, 172);
+  width: 200px;
+  height: 200px;
+}
+
+.diceContainer {
+  display: flex;
+  justify-content: space-evenly;
+}
