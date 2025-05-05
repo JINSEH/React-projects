@@ -1,0 +1,15 @@
+.buttons {
+  color: white;
+  background-color: rgba(65, 218, 65, 0.767);
+  border: none;
+  width: 90px;
+  height: 30px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.buttonscontainer {
+  display: flex;
+  column-gap: 15px;
+  margin-top: 20px;
+}
