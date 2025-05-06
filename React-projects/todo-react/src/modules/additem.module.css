@@ -1,0 +1,24 @@
+.additem {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+  margin-bottom: 15px;
+}
+
+.additem button {
+  background-color: #202529;
+  color: white;
+  border-radius: 5px;
+  border-style: none;
+  width: 50px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.additem input {
+  height: 30px;
+  padding-left: 10px;
+  font-size: 15px;
+  border-color: #d4d9dd69;
+  border-width: 1px;
+}

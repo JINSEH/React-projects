@@ -1,0 +1,34 @@
+.itemContainer {
+  display: flex;
+  border: solid;
+  border-width: 1px;
+  border-color: #abb5bd;
+  justify-content: space-between;
+  background-color: #cdd4da;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.itemContainer p {
+  color: #47525f;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+.deleteButton,
+.editButton {
+  background-color: white;
+  border-style: none;
+  height: 30px;
+  width: 65px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.editButton {
+  width: 50px;
+}
