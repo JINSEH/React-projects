@@ -1,0 +1,16 @@
+.showscore {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  row-gap: 10px;
+}
+
+.button {
+  display: flex;
+  column-gap: 10px;
+}
+
+.button button {
+  width: 80px;
+  height: 40px;
+}

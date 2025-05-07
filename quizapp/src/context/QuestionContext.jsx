@@ -5,6 +5,8 @@ const QuestionContext = createContext();
 export function QuestionProvider({ children }) {
   const [score, setScore] = useState(0);
   const [question, setQuestion] = useState("");
+  const [isQuiz, setIsQuiz] = useState(false);
+  const [isFinished, setIsFinished] = useState(false);
   const [questionList, setQuestionList] = useState(() => {
     const saved = localStorage.getItem("questionList");
     const convertedData = JSON.parse(saved);
@@ -19,8 +21,12 @@ export function QuestionProvider({ children }) {
       setQuestionList,
       score,
       setScore,
+      isQuiz,
+      setIsQuiz,
+      isFinished,
+      setIsFinished,
     }),
-    [question, questionList, score]
+    [question, questionList, score, isQuiz, isFinished]
   );
   return (
     <QuestionContext.Provider value={value}>
