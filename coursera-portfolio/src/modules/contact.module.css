@@ -1,3 +1,57 @@
-.contact {
+.contactContainer {
   background-color: #512da8;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contactContainer h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 23px;
+  font-weight: 500;
+  width: 90%;
+  margin-left: auto;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.formik {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  width: 75%;
+  row-gap: 10px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  background-color: #512da8;
+  color: rgb(156, 156, 156);
+  border: solid;
+  border-radius: 5px;
+  border-width: 1px;
+  padding-left: 5px;
+  padding-bottom: 3px;
+}
+
+button {
+  background-color: #805ad5;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 30px;
+}
+
+.errors {
+  color: red;
 }

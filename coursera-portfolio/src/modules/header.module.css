@@ -1,0 +1,36 @@
+.right {
+  display: flex;
+  column-gap: 15px;
+  align-items: center;
+  justify-content: center;
+  width: 20%;
+}
+
+.right * {
+  cursor: pointer;
+}
+
+.email {
+  color: white;
+}
+
+.header {
+  background-color: #18181c;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.left {
+  display: flex;
+  column-gap: 15px;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+}
+
+.left * {
+  cursor: pointer;
+}

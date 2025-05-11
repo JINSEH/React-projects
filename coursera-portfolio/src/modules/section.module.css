@@ -1,0 +1,23 @@
+.section {
+  background-color: #14532d;
+  color: white;
+  padding: 15px;
+  row-gap: 15px;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 20px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.contentWrapper {
+  max-width: 1500px;
+  margin: auto;
+}
