@@ -1,6 +1,6 @@
-import { useFormik, Formik, Form } from "formik";
+import { Field, Formik, Form, ErrorMessage } from "formik";
 import * as Yup from "yup";
-
+import styles from "../modules/contact.module.css";
 export default function Contact() {
   const passwordRules =
     /^(?=.*?[A-Z])(?=.*?[a-z])(?=.*?[0-9])(?=.*?[#?!@$%^&*-]).{8,}$/;
@@ -26,11 +26,29 @@ export default function Contact() {
   // console.log(errors);
 
   return (
-    <div>
+    <div className={styles.contact}>
       <h2>Contact me</h2>
-      <Formik>
-        {()=>(
-            
+      <Formik initialvalues={{ name: "", email: "", enquiry: "", message: "" }}>
+        {() => (
+          <Form>
+            <label htmlFor="name">Name: </label>
+            <Field name="name"></Field>
+
+            <label htmlFor="email">Email: </label>
+            <Field name="email" type="email"></Field>
+
+            <label htmlFor="enquiry">Type of enquiry: </label>
+            <Field as="select" name="enquiry">
+              <option value="freelance">Freelance Project Proposal</option>
+              <option value="price">Pricing Enquiries</option>
+              <option value="general">General Enquiries</option>
+            </Field>
+
+            <label htmlFor="message">Message: </label>
+            <Field as="textarea"></Field>
+
+            <button type="submit">Submit</button>
+          </Form>
         )}
       </Formik>
     </div>
