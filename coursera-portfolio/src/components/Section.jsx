@@ -92,7 +92,7 @@ export default function Section() {
               </Card.Description>
             </Card.Body>
             <Card.Footer gap="1" className={styles.footer}>
-              <Text>See more</Text>
+              <Text>See mo re</Text>
               <FontAwesomeIcon icon={faArrowRight} />
             </Card.Footer>
           </Card.Root>
